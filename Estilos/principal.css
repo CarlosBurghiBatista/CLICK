@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{margin: 0px;
+  padding: 0px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+  ::-webkit-scrollbar{width: 0px;
+                      height: 0px;}
+
+body{background-color:chocolate;
+     background: url(../IMG/Fundo.jpg)no-repeat center;
+     background-size: auto;}
+
+header{background-color: burlywood;
+       width: 90vw;
+       height: 15%;
+       margin: 1% auto;
+       border-radius: 20px;
+       box-shadow: inset 0px 0px 10px 5px; }
+
+nav{padding: 10px;}       
+
+h1{padding: 20px;
+   text-align: center;
+   font-size: 2.5em;}
+   
+nav > a{display: inline-block;
+   background-color: bisque;
+   padding: 5px; 
+   margin-left: 15px;
+   border-radius: 15px;
+   text-decoration: none;
+   box-shadow: 3px 3px 3px black;}   
+
+main{background: url(../IMG/camera.jpg)no-repeat center;
+     background-size: contain;
+     width: 90vw;
+     height: 58vh;
+     margin: auto;}
+
+footer{background-color:brown;
+       color: white;
+       width: 100vw;
+       height: 15%;
+       padding: 10px;
+       margin-top: 5%;}
+       
+footer > p{padding: 20px;
+           font-size: 1.5em;}       
+
+                            
+              
+                      /*iframe{display: block;
+                             border: 3px solid ;
+                             width: 70vw;
+                             height: 70%;
+                             margin: auto;}*/
+                                    
