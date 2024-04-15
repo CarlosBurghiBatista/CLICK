@@ -26,8 +26,10 @@ h1{padding: 20px;
    
 nav > a{display: inline-block;
    background-color: bisque;
-   padding: 5px; 
+   border: 1px solid;
+   padding: 4px; 
    margin-left: 15px;
+   margin-bottom: 10px;
    border-radius: 15px;
    text-decoration: none;
    box-shadow: 3px 3px 3px black;}   
