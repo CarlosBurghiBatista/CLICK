@@ -8,7 +8,7 @@
                       height: 0px;}
 
 body{background-color:chocolate;
-     background: url(../IMG/Fundo.jpg)no-repeat center;
+     background: url(../IMG/Fundo.jpg)no-repeat center top;
      background-size: auto;}
 
 header{background-color: burlywood;
