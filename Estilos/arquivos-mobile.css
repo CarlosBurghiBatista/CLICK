@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) { *{margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+  
+    
+  
+    header{background-color: dimgrey;
+           color: rgb(229, 214, 214);
+           width: 90%;
+           height: 10vh;
+           margin: auto;
+           margin-top: 20px; 
+           border-radius: 30px;
+           box-shadow: inset 0px 0px 15px 5px;}
+  
+    header > h1{text-align: center;
+                padding: 14px;
+                font-size: 1.5em;}
+  
+    main{background-color: lightgrey;
+         width: 80vw;
+         height: 70vh;
+         margin: 30px auto;
+         border-radius: 30px;
+         box-shadow: inset 0px 0px 13px;}
+         
+    main > ul{list-style-position: inside;
+              list-style-image:url(/IMG/photo-camera_3534384.png);
+              margin: 5px 17px;
+            }
+              
+    main > ul > li >a{font-size: 1.3em;
+                      text-decoration: none;
+                      line-height: 1.5;}
+                      
+    
+}
