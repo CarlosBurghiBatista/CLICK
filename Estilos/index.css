@@ -36,7 +36,7 @@ nav > a{display: inline-block;
    text-decoration: none;
    box-shadow: 3px 3px 3px black;}   
 
-main{background: url(../IMG/camera.jpg)no-repeat center;
+main{background:url(../IMG/camera.png) center no-repeat;
      background-size: contain;
      width: 90vw;
      height: 58vh;
